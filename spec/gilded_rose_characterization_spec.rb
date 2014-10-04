@@ -36,16 +36,11 @@ def characterize(subject, days)
     subject.items.each { |item| characterization << item.to_s }
   end
 
-  characterization
+  result = characterization.join("\n")
+  File.open('characterization.txt', 'w') { |f| f.write(result) }
+  result
 end
 
 def expected
-  [
-    'Mail Armour, 9, 19',
-    'Aged Brie, 3, 10',
-    'Backstage passes to a TAFKAL80ETC concert, 14, 18',
-    'Mail Armour, 8, 18',
-    'Aged Brie, 2, 11',
-    'Backstage passes to a TAFKAL80ETC concert, 13, 19',
-  ]
+  File.read('characterization_master.txt')
 end
