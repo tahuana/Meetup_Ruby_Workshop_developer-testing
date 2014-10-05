@@ -8,7 +8,7 @@ describe GildedRose do
   it 'knows how to update quality for items' do
     subject = GildedRose.new(items)
 
-    characterization = characterize(subject, 2)
+    characterization = characterize(subject, 20)
 
     expect(characterization).to eq(expected)
   end
