@@ -20,8 +20,11 @@ private
 def items
   item_attributes = [
     ['Mail Armour', 10, 20],
+    ['Mail Armour', 10, 1],
     ['Aged Brie', 4, 9],
+    ['Aged Brie', 1, 49],
     ['Backstage passes to a TAFKAL80ETC concert', 15, 17],
+    ['Backstage passes to a TAFKAL80ETC concert', 5, 49],
     ['Sulfuras, Hand of Ragnaros', -1, 80]
   ]
 
