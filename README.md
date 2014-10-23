@@ -1,7 +1,7 @@
 Gilded Rose Kata Refactoring Workshop
 =====================================
 
-This repo contains an exercise for the first (?) refactoring workshop. A big debt of gratitude is due to Alistair McKinnon for presenting the Gilded Rose Kata and his characterization tests at the last Toronto Ruby Brigade session. We knew immediately that his work would provide an excellent basis for refactoring, and this drove us to (finally!) commit to this workshop.
+This repo contains an exercise for the first (?) refactoring workshop. A big debt of gratitude is due to Alistair McKinnell for presenting the Gilded Rose Kata and his characterization tests at the last Toronto Ruby Brigade session. We knew immediately that his work would provide an excellent basis for refactoring, and this drove us to (finally!) commit to this workshop.
 
 Setup
 -----
