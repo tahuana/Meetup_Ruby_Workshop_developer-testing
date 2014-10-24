@@ -3,11 +3,17 @@ Gilded Rose Kata Refactoring Workshop
 
 This repo contains an exercise for our refactoring workshop. A big debt of gratitude is due to Alistair McKinnell for presenting the Gilded Rose Kata and his characterization tests at the last Toronto Ruby Brigade session. We knew immediately that his work would provide an excellent basis for refactoring, and this drove us to (finally!) actually organize it.
 
-Alistair's repo (which we've forked here) was built to demonstrate "three advanced developer testing techniques as they apply to the [Gilded Rose Kata](http://craftsmanship.sv.cmu.edu/exercises/gilded-rose-kata)."  You can learn more about those techniques in the parent repo.
+Alistair's repo (which we've forked here) was built to demonstrate "three advanced developer testing techniques as they apply to the [Gilded Rose Kata](http://craftsmanship.sv.cmu.edu/exercises/gilded-rose-kata)."  You can learn more about those techniques in the parent repository.
 
-We've restructured the repo to provide a quick-start introduction to refactoring techniques by replacing the refactored Gilded Rose Kata code with the original kruft (translated into Ruby by professor - check it out here: https://github.com/professor/GildedRose), but retaining the awesome characterization tests Alistair built.
+We've restructured this repository to provide a quick-start introduction to refactoring techniques by replacing Alistair's  refactored Gilded Rose Kata code with the original kruft (translated into Ruby by @professor - check it out here: https://github.com/professor/GildedRose), but retaining the awesome characterization tests Alistair built.
 
-Your mission is the same as in the original Gilded Rose Kata, but if you find it a bit to easy, we've added some stretch goals too.  Have fun!
+With the old code and characterization test, we're ready to take on the job of refactoring. On Ruby Hack Night, we suggest you focus on the following goals in this order:
+
+1. refactor the solution so it is easier for you and your peer developers to understand,
+2. achieve the primary goal of implementing "conjured" items, and
+3. achieve any or all of the stretch goals, if you found the above a bit too easy.
+
+Your mission is the same as in the original Gilded Rose Kata.  Have fun and watch out for the goblin!
 
 
 ##Setup
@@ -62,9 +68,7 @@ Finished in 0.00169 seconds
 
 
 ## Rules and Specification
-Your mission is the same as in the original Gilded Rose Kata, but if you find it a bit to easy, we've added some stretch goals too. Have fun!
-
-Hi and welcome to team Gilded Rose.
+Hello and welcome to team *Gilded Rose*.
 
 As you know, we are a small inn with a prime location in a prominent city ran by a friendly innkeeper named Allison. We also buy and sell only the finest goods. Unfortunately, our goods are constantly degrading in quality as they approach their sell by date.
 
