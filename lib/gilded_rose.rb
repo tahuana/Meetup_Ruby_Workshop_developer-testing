@@ -8,50 +8,55 @@ class GildedRose
   def update_quality
 
     for i in 0..(@items.size-1)
-      if (@items[i].name != "Aged Brie" && @items[i].name != "Backstage passes to a TAFKAL80ETC concert")
-        if (@items[i].quality > 0)
-          if (@items[i].name != "Sulfuras, Hand of Ragnaros")
-            @items[i].quality = @items[i].quality - 1
-          end
-        end
+      case @items[i].name
+      when "Sulfuras, Hand of Ragnaros"
+      when "Aged Brie"
+        aged_brie @items[i]
+      when "Backstage passes to a TAFKAL80ETC concert"
+        backstage_pass @items[i]
+      when "Conjured Mana Cake"
+        conjured @items[i]
       else
-        if (@items[i].quality < 50)
-          @items[i].quality = @items[i].quality + 1
-          if (@items[i].name == "Backstage passes to a TAFKAL80ETC concert")
-            if (@items[i].sell_in < 11)
-              if (@items[i].quality < 50)
-                @items[i].quality = @items[i].quality + 1
-              end
-            end
-            if (@items[i].sell_in < 6)
-              if (@items[i].quality < 50)
-                @items[i].quality = @items[i].quality + 1
-              end
-            end
-          end
-        end
-      end
-      if (@items[i].name != "Sulfuras, Hand of Ragnaros")
-        @items[i].sell_in = @items[i].sell_in - 1;
-      end
-      if (@items[i].sell_in < 0)
-        if (@items[i].name != "Aged Brie")
-          if (@items[i].name != "Backstage passes to a TAFKAL80ETC concert")
-            if (@items[i].quality > 0)
-              if (@items[i].name != "Sulfuras, Hand of Ragnaros")
-                @items[i].quality = @items[i].quality - 1
-              end
-            end
-          else
-            @items[i].quality = @items[i].quality - @items[i].quality
-          end
-        else
-          if (@items[i].quality < 50)
-            @items[i].quality = @items[i].quality + 1
-          end
-        end
+        standard_item @items[i]
       end
     end
   end
+end
 
+def backstage_pass item
+  if item.quality <50
+    item.quality += 1
+    if (item.sell_in < 6)
+      item.quality += 2
+    elsif (item.sell_in < 11)
+      item.quality += 1
+    end
+  end
+  item.quality = 50 if item.quality > 50
+  item.quality = 0 if item.sell_in < 1
+  item.sell_in -= 1
+end
+
+def aged_brie item
+  item.quality += 1 if item.quality < 50
+  if item.sell_in < 1
+    if (item.quality < 50)
+      item.quality += 1
+    end
+  end
+  item.sell_in -= 1
+end
+
+def standard_item item
+  item.quality -= 1
+  item.quality -= 1 if item.sell_in < 1
+  item.quality = 0 if item.quality < 0
+  item.sell_in -= 1
+end
+
+def conjured item
+  item.quality = item.quality - 2
+  item.quality = item.quality - 2 if item.sell_in < 1
+  item.quality = 0 if item.quality < 0
+  item.sell_in = item.sell_in - 1
 end
