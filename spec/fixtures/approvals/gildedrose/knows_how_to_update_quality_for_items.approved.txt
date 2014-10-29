@@ -8,6 +8,17 @@ Day 1 of 20
   Backstage passes to a TAFKAL80ETC concert, 14, 18
   Backstage passes to a TAFKAL80ETC concert, 4, 50
   Sulfuras, Hand of Ragnaros, -1, 80
+  Conjured Mana Cake, 9, 17
+  Aged Stilton, 3, 20
+  Aged Stilton, 10, 40
+  Aged Elvish Wine, 3, 10
+  Aged Elvish Wine, 0, 50
+  Backstage passes to the Rat Queens, 14, 18
+  Backstage passes to the Rat Queens, 4, 50
+  Backstage passes to the Hard Rock Troll Orchestra, 14, 18
+  Backstage passes to the Hard Rock Troll Orchestra, 4, 50
+  Conjured loincloth, 9, 18
+  Conjured fake beard, 19, 28
 Day 2 of 20
   Mail Armour, 8, 18
   Mail Armour, 8, 0
@@ -18,6 +29,17 @@ Day 2 of 20
   Backstage passes to a TAFKAL80ETC concert, 13, 19
   Backstage passes to a TAFKAL80ETC concert, 3, 50
   Sulfuras, Hand of Ragnaros, -1, 80
+  Conjured Mana Cake, 8, 15
+  Aged Stilton, 2, 21
+  Aged Stilton, 9, 41
+  Aged Elvish Wine, 2, 11
+  Aged Elvish Wine, -1, 50
+  Backstage passes to the Rat Queens, 13, 19
+  Backstage passes to the Rat Queens, 3, 50
+  Backstage passes to the Hard Rock Troll Orchestra, 13, 19
+  Backstage passes to the Hard Rock Troll Orchestra, 3, 50
+  Conjured loincloth, 8, 16
+  Conjured fake beard, 18, 26
 Day 3 of 20
   Mail Armour, 7, 17
   Mail Armour, 7, 0
@@ -28,6 +50,17 @@ Day 3 of 20
   Backstage passes to a TAFKAL80ETC concert, 12, 20
   Backstage passes to a TAFKAL80ETC concert, 2, 50
   Sulfuras, Hand of Ragnaros, -1, 80
+  Conjured Mana Cake, 7, 13
+  Aged Stilton, 1, 22
+  Aged Stilton, 8, 42
+  Aged Elvish Wine, 1, 12
+  Aged Elvish Wine, -2, 50
+  Backstage passes to the Rat Queens, 12, 20
+  Backstage passes to the Rat Queens, 2, 50
+  Backstage passes to the Hard Rock Troll Orchestra, 12, 20
+  Backstage passes to the Hard Rock Troll Orchestra, 2, 50
+  Conjured loincloth, 7, 14
+  Conjured fake beard, 17, 24
 Day 4 of 20
   Mail Armour, 6, 16
   Mail Armour, 6, 0
@@ -38,6 +71,17 @@ Day 4 of 20
   Backstage passes to a TAFKAL80ETC concert, 11, 21
   Backstage passes to a TAFKAL80ETC concert, 1, 50
   Sulfuras, Hand of Ragnaros, -1, 80
+  Conjured Mana Cake, 6, 11
+  Aged Stilton, 0, 23
+  Aged Stilton, 7, 43
+  Aged Elvish Wine, 0, 13
+  Aged Elvish Wine, -3, 50
+  Backstage passes to the Rat Queens, 11, 21
+  Backstage passes to the Rat Queens, 1, 50
+  Backstage passes to the Hard Rock Troll Orchestra, 11, 21
+  Backstage passes to the Hard Rock Troll Orchestra, 1, 50
+  Conjured loincloth, 6, 12
+  Conjured fake beard, 16, 22
 Day 5 of 20
   Mail Armour, 5, 15
   Mail Armour, 5, 0
@@ -48,6 +92,17 @@ Day 5 of 20
   Backstage passes to a TAFKAL80ETC concert, 10, 22
   Backstage passes to a TAFKAL80ETC concert, 0, 50
   Sulfuras, Hand of Ragnaros, -1, 80
+  Conjured Mana Cake, 5, 9
+  Aged Stilton, -1, 25
+  Aged Stilton, 6, 44
+  Aged Elvish Wine, -1, 15
+  Aged Elvish Wine, -4, 50
+  Backstage passes to the Rat Queens, 10, 22
+  Backstage passes to the Rat Queens, 0, 50
+  Backstage passes to the Hard Rock Troll Orchestra, 10, 22
+  Backstage passes to the Hard Rock Troll Orchestra, 0, 50
+  Conjured loincloth, 5, 10
+  Conjured fake beard, 15, 20
 Day 6 of 20
   Mail Armour, 4, 14
   Mail Armour, 4, 0
@@ -58,6 +113,17 @@ Day 6 of 20
   Backstage passes to a TAFKAL80ETC concert, 9, 24
   Backstage passes to a TAFKAL80ETC concert, -1, 0
   Sulfuras, Hand of Ragnaros, -1, 80
+  Conjured Mana Cake, 4, 7
+  Aged Stilton, -2, 27
+  Aged Stilton, 5, 45
+  Aged Elvish Wine, -2, 17
+  Aged Elvish Wine, -5, 50
+  Backstage passes to the Rat Queens, 9, 24
+  Backstage passes to the Rat Queens, -1, 0
+  Backstage passes to the Hard Rock Troll Orchestra, 9, 24
+  Backstage passes to the Hard Rock Troll Orchestra, -1, 0
+  Conjured loincloth, 4, 8
+  Conjured fake beard, 14, 18
 Day 7 of 20
   Mail Armour, 3, 13
   Mail Armour, 3, 0
@@ -68,6 +134,17 @@ Day 7 of 20
   Backstage passes to a TAFKAL80ETC concert, 8, 26
   Backstage passes to a TAFKAL80ETC concert, -2, 0
   Sulfuras, Hand of Ragnaros, -1, 80
+  Conjured Mana Cake, 3, 5
+  Aged Stilton, -3, 29
+  Aged Stilton, 4, 46
+  Aged Elvish Wine, -3, 19
+  Aged Elvish Wine, -6, 50
+  Backstage passes to the Rat Queens, 8, 26
+  Backstage passes to the Rat Queens, -2, 0
+  Backstage passes to the Hard Rock Troll Orchestra, 8, 26
+  Backstage passes to the Hard Rock Troll Orchestra, -2, 0
+  Conjured loincloth, 3, 6
+  Conjured fake beard, 13, 16
 Day 8 of 20
   Mail Armour, 2, 12
   Mail Armour, 2, 0
@@ -78,6 +155,17 @@ Day 8 of 20
   Backstage passes to a TAFKAL80ETC concert, 7, 28
   Backstage passes to a TAFKAL80ETC concert, -3, 0
   Sulfuras, Hand of Ragnaros, -1, 80
+  Conjured Mana Cake, 2, 3
+  Aged Stilton, -4, 31
+  Aged Stilton, 3, 47
+  Aged Elvish Wine, -4, 21
+  Aged Elvish Wine, -7, 50
+  Backstage passes to the Rat Queens, 7, 28
+  Backstage passes to the Rat Queens, -3, 0
+  Backstage passes to the Hard Rock Troll Orchestra, 7, 28
+  Backstage passes to the Hard Rock Troll Orchestra, -3, 0
+  Conjured loincloth, 2, 4
+  Conjured fake beard, 12, 14
 Day 9 of 20
   Mail Armour, 1, 11
   Mail Armour, 1, 0
@@ -88,6 +176,17 @@ Day 9 of 20
   Backstage passes to a TAFKAL80ETC concert, 6, 30
   Backstage passes to a TAFKAL80ETC concert, -4, 0
   Sulfuras, Hand of Ragnaros, -1, 80
+  Conjured Mana Cake, 1, 1
+  Aged Stilton, -5, 33
+  Aged Stilton, 2, 48
+  Aged Elvish Wine, -5, 23
+  Aged Elvish Wine, -8, 50
+  Backstage passes to the Rat Queens, 6, 30
+  Backstage passes to the Rat Queens, -4, 0
+  Backstage passes to the Hard Rock Troll Orchestra, 6, 30
+  Backstage passes to the Hard Rock Troll Orchestra, -4, 0
+  Conjured loincloth, 1, 2
+  Conjured fake beard, 11, 12
 Day 10 of 20
   Mail Armour, 0, 10
   Mail Armour, 0, 0
@@ -98,6 +197,17 @@ Day 10 of 20
   Backstage passes to a TAFKAL80ETC concert, 5, 32
   Backstage passes to a TAFKAL80ETC concert, -5, 0
   Sulfuras, Hand of Ragnaros, -1, 80
+  Conjured Mana Cake, 0, 0
+  Aged Stilton, -6, 35
+  Aged Stilton, 1, 49
+  Aged Elvish Wine, -6, 25
+  Aged Elvish Wine, -9, 50
+  Backstage passes to the Rat Queens, 5, 32
+  Backstage passes to the Rat Queens, -5, 0
+  Backstage passes to the Hard Rock Troll Orchestra, 5, 32
+  Backstage passes to the Hard Rock Troll Orchestra, -5, 0
+  Conjured loincloth, 0, 0
+  Conjured fake beard, 10, 10
 Day 11 of 20
   Mail Armour, -1, 8
   Mail Armour, -1, 0
@@ -108,6 +218,17 @@ Day 11 of 20
   Backstage passes to a TAFKAL80ETC concert, 4, 35
   Backstage passes to a TAFKAL80ETC concert, -6, 0
   Sulfuras, Hand of Ragnaros, -1, 80
+  Conjured Mana Cake, -1, 0
+  Aged Stilton, -7, 37
+  Aged Stilton, 0, 50
+  Aged Elvish Wine, -7, 27
+  Aged Elvish Wine, -10, 50
+  Backstage passes to the Rat Queens, 4, 35
+  Backstage passes to the Rat Queens, -6, 0
+  Backstage passes to the Hard Rock Troll Orchestra, 4, 35
+  Backstage passes to the Hard Rock Troll Orchestra, -6, 0
+  Conjured loincloth, -1, 0
+  Conjured fake beard, 9, 8
 Day 12 of 20
   Mail Armour, -2, 6
   Mail Armour, -2, 0
@@ -118,6 +239,17 @@ Day 12 of 20
   Backstage passes to a TAFKAL80ETC concert, 3, 38
   Backstage passes to a TAFKAL80ETC concert, -7, 0
   Sulfuras, Hand of Ragnaros, -1, 80
+  Conjured Mana Cake, -2, 0
+  Aged Stilton, -8, 39
+  Aged Stilton, -1, 50
+  Aged Elvish Wine, -8, 29
+  Aged Elvish Wine, -11, 50
+  Backstage passes to the Rat Queens, 3, 38
+  Backstage passes to the Rat Queens, -7, 0
+  Backstage passes to the Hard Rock Troll Orchestra, 3, 38
+  Backstage passes to the Hard Rock Troll Orchestra, -7, 0
+  Conjured loincloth, -2, 0
+  Conjured fake beard, 8, 6
 Day 13 of 20
   Mail Armour, -3, 4
   Mail Armour, -3, 0
@@ -128,6 +260,17 @@ Day 13 of 20
   Backstage passes to a TAFKAL80ETC concert, 2, 41
   Backstage passes to a TAFKAL80ETC concert, -8, 0
   Sulfuras, Hand of Ragnaros, -1, 80
+  Conjured Mana Cake, -3, 0
+  Aged Stilton, -9, 41
+  Aged Stilton, -2, 50
+  Aged Elvish Wine, -9, 31
+  Aged Elvish Wine, -12, 50
+  Backstage passes to the Rat Queens, 2, 41
+  Backstage passes to the Rat Queens, -8, 0
+  Backstage passes to the Hard Rock Troll Orchestra, 2, 41
+  Backstage passes to the Hard Rock Troll Orchestra, -8, 0
+  Conjured loincloth, -3, 0
+  Conjured fake beard, 7, 4
 Day 14 of 20
   Mail Armour, -4, 2
   Mail Armour, -4, 0
@@ -138,6 +281,17 @@ Day 14 of 20
   Backstage passes to a TAFKAL80ETC concert, 1, 44
   Backstage passes to a TAFKAL80ETC concert, -9, 0
   Sulfuras, Hand of Ragnaros, -1, 80
+  Conjured Mana Cake, -4, 0
+  Aged Stilton, -10, 43
+  Aged Stilton, -3, 50
+  Aged Elvish Wine, -10, 33
+  Aged Elvish Wine, -13, 50
+  Backstage passes to the Rat Queens, 1, 44
+  Backstage passes to the Rat Queens, -9, 0
+  Backstage passes to the Hard Rock Troll Orchestra, 1, 44
+  Backstage passes to the Hard Rock Troll Orchestra, -9, 0
+  Conjured loincloth, -4, 0
+  Conjured fake beard, 6, 2
 Day 15 of 20
   Mail Armour, -5, 0
   Mail Armour, -5, 0
@@ -148,6 +302,17 @@ Day 15 of 20
   Backstage passes to a TAFKAL80ETC concert, 0, 47
   Backstage passes to a TAFKAL80ETC concert, -10, 0
   Sulfuras, Hand of Ragnaros, -1, 80
+  Conjured Mana Cake, -5, 0
+  Aged Stilton, -11, 45
+  Aged Stilton, -4, 50
+  Aged Elvish Wine, -11, 35
+  Aged Elvish Wine, -14, 50
+  Backstage passes to the Rat Queens, 0, 47
+  Backstage passes to the Rat Queens, -10, 0
+  Backstage passes to the Hard Rock Troll Orchestra, 0, 47
+  Backstage passes to the Hard Rock Troll Orchestra, -10, 0
+  Conjured loincloth, -5, 0
+  Conjured fake beard, 5, 0
 Day 16 of 20
   Mail Armour, -6, 0
   Mail Armour, -6, 0
@@ -158,6 +323,17 @@ Day 16 of 20
   Backstage passes to a TAFKAL80ETC concert, -1, 0
   Backstage passes to a TAFKAL80ETC concert, -11, 0
   Sulfuras, Hand of Ragnaros, -1, 80
+  Conjured Mana Cake, -6, 0
+  Aged Stilton, -12, 47
+  Aged Stilton, -5, 50
+  Aged Elvish Wine, -12, 37
+  Aged Elvish Wine, -15, 50
+  Backstage passes to the Rat Queens, -1, 0
+  Backstage passes to the Rat Queens, -11, 0
+  Backstage passes to the Hard Rock Troll Orchestra, -1, 0
+  Backstage passes to the Hard Rock Troll Orchestra, -11, 0
+  Conjured loincloth, -6, 0
+  Conjured fake beard, 4, 0
 Day 17 of 20
   Mail Armour, -7, 0
   Mail Armour, -7, 0
@@ -168,6 +344,17 @@ Day 17 of 20
   Backstage passes to a TAFKAL80ETC concert, -2, 0
   Backstage passes to a TAFKAL80ETC concert, -12, 0
   Sulfuras, Hand of Ragnaros, -1, 80
+  Conjured Mana Cake, -7, 0
+  Aged Stilton, -13, 49
+  Aged Stilton, -6, 50
+  Aged Elvish Wine, -13, 39
+  Aged Elvish Wine, -16, 50
+  Backstage passes to the Rat Queens, -2, 0
+  Backstage passes to the Rat Queens, -12, 0
+  Backstage passes to the Hard Rock Troll Orchestra, -2, 0
+  Backstage passes to the Hard Rock Troll Orchestra, -12, 0
+  Conjured loincloth, -7, 0
+  Conjured fake beard, 3, 0
 Day 18 of 20
   Mail Armour, -8, 0
   Mail Armour, -8, 0
@@ -178,6 +365,17 @@ Day 18 of 20
   Backstage passes to a TAFKAL80ETC concert, -3, 0
   Backstage passes to a TAFKAL80ETC concert, -13, 0
   Sulfuras, Hand of Ragnaros, -1, 80
+  Conjured Mana Cake, -8, 0
+  Aged Stilton, -14, 50
+  Aged Stilton, -7, 50
+  Aged Elvish Wine, -14, 41
+  Aged Elvish Wine, -17, 50
+  Backstage passes to the Rat Queens, -3, 0
+  Backstage passes to the Rat Queens, -13, 0
+  Backstage passes to the Hard Rock Troll Orchestra, -3, 0
+  Backstage passes to the Hard Rock Troll Orchestra, -13, 0
+  Conjured loincloth, -8, 0
+  Conjured fake beard, 2, 0
 Day 19 of 20
   Mail Armour, -9, 0
   Mail Armour, -9, 0
@@ -188,6 +386,17 @@ Day 19 of 20
   Backstage passes to a TAFKAL80ETC concert, -4, 0
   Backstage passes to a TAFKAL80ETC concert, -14, 0
   Sulfuras, Hand of Ragnaros, -1, 80
+  Conjured Mana Cake, -9, 0
+  Aged Stilton, -15, 50
+  Aged Stilton, -8, 50
+  Aged Elvish Wine, -15, 43
+  Aged Elvish Wine, -18, 50
+  Backstage passes to the Rat Queens, -4, 0
+  Backstage passes to the Rat Queens, -14, 0
+  Backstage passes to the Hard Rock Troll Orchestra, -4, 0
+  Backstage passes to the Hard Rock Troll Orchestra, -14, 0
+  Conjured loincloth, -9, 0
+  Conjured fake beard, 1, 0
 Day 20 of 20
   Mail Armour, -10, 0
   Mail Armour, -10, 0
@@ -198,3 +407,14 @@ Day 20 of 20
   Backstage passes to a TAFKAL80ETC concert, -5, 0
   Backstage passes to a TAFKAL80ETC concert, -15, 0
   Sulfuras, Hand of Ragnaros, -1, 80
+  Conjured Mana Cake, -10, 0
+  Aged Stilton, -16, 50
+  Aged Stilton, -9, 50
+  Aged Elvish Wine, -16, 45
+  Aged Elvish Wine, -19, 50
+  Backstage passes to the Rat Queens, -5, 0
+  Backstage passes to the Rat Queens, -15, 0
+  Backstage passes to the Hard Rock Troll Orchestra, -5, 0
+  Backstage passes to the Hard Rock Troll Orchestra, -15, 0
+  Conjured loincloth, -10, 0
+  Conjured fake beard, 0, 0

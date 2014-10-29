@@ -4,7 +4,7 @@ class AgedItem < RegularItem
   end
 
   def new_quality
-    self.quality + (self.is_stale? ? 2 : 1)
+    self.quality + (self.is_stale ? 2 : 1)
   end
 
   def update_quality

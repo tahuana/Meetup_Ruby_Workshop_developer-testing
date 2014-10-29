@@ -4,7 +4,7 @@ class BackstagePass < RegularItem
   end
 
   def new_quality
-    return MIN_ITEM_QUALITY if self.is_stale?
+    return MIN_ITEM_QUALITY if self.is_stale
     conditions = [self.sell_in < 11, self.sell_in < 6]
     self.quality + 1 + conditions.count(true)
   end

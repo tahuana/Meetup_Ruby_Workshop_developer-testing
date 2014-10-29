@@ -2,7 +2,7 @@ class RegularItem < Item
   MAX_ITEM_QUALITY = 50
   MIN_ITEM_QUALITY = 0
 
-  def is_stale?
+  def is_stale
     self.sell_in <= 0
   end
 
@@ -11,7 +11,7 @@ class RegularItem < Item
   end
 
   def new_quality
-    self.quality - (self.is_stale? ? 2 : 1)
+    self.quality - (self.is_stale ? 2 : 1)
   end
 
   # Most items degrade, so this makes sense as a default implementation

@@ -31,18 +31,18 @@ def item_attributes
     AgedItem.new('Brie', 1, 49),
     BackstagePass.new('a TAFKAL80ETC concert', 15, 17),
     BackstagePass.new('a TAFKAL80ETC concert', 5, 49),
-    LegendaryItem.new('Sulfuras, Hand of Ragnaros', -1, 80)#,
-#    ['Conjured Mana Cake', 10, 20],
-#    ['Aged Stilton', 4, 9],
-#    ['Aged Stilton', 1, 49],
-#    ['Aged Elvish Wine', 4, 9],
-#    ['Aged Elvish Wine', 1, 49],
-#    ['Backstage passes to the Rat Queens', 15, 17],
-#    ['Backstage passes to the Rat Queens', 5, 49],
-#    ['Backstage passes to the Hard Rock Troll Orchestra', 15, 17],
-#    ['Backstage passes to the Hard Rock Troll Orchestra', 5, 49],
-#    ['Conjured loincloth', 10, 20],
-#    ['Conjured fake beard', 10, 20]
+    LegendaryItem.new('Sulfuras, Hand of Ragnaros', -1, 80),
+    ConjuredItem.new('Mana Cake', 10, 19),
+    AgedItem.new('Stilton', 4, 19),
+    AgedItem.new('Stilton', 11, 39),
+    AgedItem.new('Elvish Wine', 4, 9),
+    AgedItem.new('Elvish Wine', 1, 49),
+    BackstagePass.new('the Rat Queens', 15, 17),
+    BackstagePass.new('the Rat Queens', 5, 49),
+    BackstagePass.new('the Hard Rock Troll Orchestra', 15, 17),
+    BackstagePass.new('the Hard Rock Troll Orchestra', 5, 49),
+    ConjuredItem.new('loincloth', 10, 20),
+    ConjuredItem.new('fake beard', 20, 30)
   ]
 end
 
