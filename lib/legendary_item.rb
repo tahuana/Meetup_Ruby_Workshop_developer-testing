@@ -1,4 +1,5 @@
 class LegendaryItem < Item
+
   def update_sell_in
     # do nothing
   end
@@ -6,4 +7,5 @@ class LegendaryItem < Item
   def update_quality
     # do nothing
   end
+
 end
