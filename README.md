@@ -33,38 +33,39 @@ Here are the steps to get you started with the repo. We assume, naturally, that 
 
 ###Option 2 (beginners)
 1. Move to your projects area:
-``sh
+```sh
 % cd ~/projects # or whatever you called it...
-``
+```
 2. Clone the repo using the following:
-``sh
+```sh
 % git clone git@github.com:k00ka/developer-testing.git
-``
+```
 
 ###Both options continue...
-``sh
+```sh
 % cd developer-testing
 % gem install bundler
 % bundle
-``
+```
+
 ######Note: if you use rbenv...
-``sh
+```sh
 % rbenv rehash
-``
+```
 
 ##Run the characterization test 
-``sh
+```sh
 % rspec ./spec/gilded_rose_characterization_spec.rb
 .
 
 Finished in 0.00169 seconds
 1 example, 0 failures
-``
+```
 
 ##Run approvals
-``sh
+```sh
 % approvals verify
-``
+```
 
 
 ## Rules and Specification
