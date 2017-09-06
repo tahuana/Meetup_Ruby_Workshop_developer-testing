@@ -22,16 +22,16 @@ With the old code and characterization test, we're ready to take on the job of r
 Your mission is the same as in the original Gilded Rose Kata.  Have fun and watch out for the goblin!
 
 
-##Setup
+## Setup
 
 Here are the steps to get you started with the repo. We assume, naturally, that you have a working development machine with Ruby 2.x or better on it. At Ryatta Group we use rbenv, and so we've included some optional elements - just skip them if you're using rvm or are not versioning your Ruby.
 
-###Option 1 (recommended)
+### Option 1 (recommended)
 1. Fork the repo on this page: https://github.com/k00ka/developer-testing
 2. Move to your projects area.
 3. Clone the forked repo.
 
-###Option 2 (beginners)
+### Option 2 (beginners)
 1. Move to your projects area:
 ```sh
 % cd ~/projects # or whatever you called it...
@@ -41,19 +41,19 @@ Here are the steps to get you started with the repo. We assume, naturally, that 
 % git clone git@github.com:k00ka/developer-testing.git
 ```
 
-###Both options continue...
+### Both options continue...
 ```sh
 % cd developer-testing
 % gem install bundler
 % bundle
 ```
 
-######Note: if you use rbenv...
+###### Note: if you use rbenv...
 ```sh
 % rbenv rehash
 ```
 
-##Run the characterization test 
+## Run the characterization test 
 ```sh
 % rspec ./spec/gilded_rose_characterization_spec.rb
 .
@@ -62,7 +62,7 @@ Finished in 0.00169 seconds
 1 example, 0 failures
 ```
 
-##Run approvals
+## Run approvals
 ```sh
 % approvals verify
 ```
