@@ -11,5 +11,5 @@ gem 'mutant'
 gem 'mutant-rspec'
 
 gem 'rake'
-gem 'rspec', '~> 2.14.0'
+gem 'rspec'
 gem 'simplecov'
