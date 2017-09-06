@@ -3,7 +3,13 @@ Gilded Rose Kata Refactoring Workshop
 
 This repo contains an exercise for our refactoring workshop. A big debt of gratitude is due to Alistair McKinnell for presenting the Gilded Rose Kata and his characterization tests at the last Toronto Ruby Brigade session. We knew immediately that his work would provide an excellent basis for refactoring, and this drove us to (finally!) actually organize it.
 
-Alistair's repo (which we've forked here) was built to demonstrate "three advanced developer testing techniques as they apply to the [Gilded Rose Kata](http://craftsmanship.sv.cmu.edu/exercises/gilded-rose-kata)."  You can learn more about those techniques in the parent repository.
+Alistair's repo (which we've forked here) was built to demonstrate "three advanced developer testing techniques as they apply to the [Gilded Rose Kata](http://craftsmanship.sv.cmu.edu/exercises/gilded-rose-kata)."  You can learn more about those techniques in the parent repository. Briefly, they are:
+1. Characterization testing
+  With legacy code without proper specifications or tests, the only thing the developer has to work with is the existing code and its actual behavior: not what the code is supposed to do, but what it actually does.
+2. Mutation testing
+  With existing tests, mutate (change) certain statements in the source code and check if the test cases are able to detect the errors.
+3. Approval testing
+  Taking a snapshot (golden master) of an object and comparing all future versions of the object to the golden master.
 
 We've restructured this repository to provide a quick-start introduction to refactoring techniques by replacing Alistair's  refactored Gilded Rose Kata code with the original kruft (translated into Ruby by @professor - check it out here: https://github.com/professor/GildedRose), but retaining the awesome characterization tests Alistair built.
 
@@ -18,53 +24,47 @@ Your mission is the same as in the original Gilded Rose Kata.  Have fun and watc
 
 ##Setup
 
-Here are the steps to get you started with the repo. We assume, naturally, that you have a working development machine with Ruby 1.8 or better on it. At Ryatta Group we use rbenv, and so we've included some optional elements - just skip them if you're using rvm or are not versioning your Ruby.
+Here are the steps to get you started with the repo. We assume, naturally, that you have a working development machine with Ruby 2.x or better on it. At Ryatta Group we use rbenv, and so we've included some optional elements - just skip them if you're using rvm or are not versioning your Ruby.
 
-```sh
+###Option 1 (recommended)
+1. Fork the repo on this page: https://github.com/k00ka/developer-testing
+2. Move to your projects area.
+3. Clone the forked repo.
+
+###Option 2 (beginners)
+1. Move to your projects area:
+``sh
+% cd ~/projects # or whatever you called it...
+``
+2. Clone the repo using the following:
+``sh
 % git clone git@github.com:k00ka/developer-testing.git
-Cloning into 'developer-testing'...
-remote: Counting objects: 212, done.
-remote: Compressing objects: 100% (107/107), done.
-remote: Total 212 (delta 103), reused 211 (delta 102)
-Receiving objects: 100% (212/212), 23.71 KiB | 0 bytes/s, done.
-Resolving deltas: 100% (103/103), done.
-Checking connectivity... done.
+``
+
+###Both options continue...
+``sh
 % cd developer-testing
 % gem install bundler
-Fetching: bundler-1.7.4.gem ( 13%)^R
-Fetching: bundler-1.7.4.gem ( 68%)t
-Fetching: bundler-1.7.4.gem (100%)
-Successfully installed bundler-1.7.4
-1 gem installed
 % bundle
-Fetching gem metadata from https://rubygems.org/.........
-Resolving dependencies...
-Installing rake 10.3.2
-    ...
-Installing simplecov 0.9.1
-Using bundler 1.7.4
-Your bundle is complete!
-Use `bundle show [gemname]` to see where a bundled gem is installed.
-```
+``
 ######Note: if you use rbenv...
-```sh
+``sh
 % rbenv rehash
-```
+``
 
-Running the tests
------------------
-######Run the characterization test 
-```sh
+##Run the characterization test 
+``sh
 % rspec ./spec/gilded_rose_characterization_spec.rb
 .
 
 Finished in 0.00169 seconds
 1 example, 0 failures
-```
-######Run approvals to see the differences between expected and actual test results
-```sh
+``
+
+##Run approvals
+``sh
 % approvals verify
-```
+``
 
 
 ## Rules and Specification
