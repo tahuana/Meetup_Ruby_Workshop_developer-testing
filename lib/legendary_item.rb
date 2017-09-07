@@ -5,4 +5,8 @@ class LegendaryItem < Item
     # don't update
   end
 
+  def update_quality
+  end
+
+
 end

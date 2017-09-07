@@ -39,7 +39,7 @@ def characterize(subject, days)
   characterization = []
 
   (1..days).each do |day|
-    subject.update_quality
+    subject.age_one_day
 
     characterization << "Day #{day} of #{days}"
     subject.items.each { |item| characterization << "  #{item.to_s}" }

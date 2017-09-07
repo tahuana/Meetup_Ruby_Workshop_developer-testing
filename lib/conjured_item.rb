@@ -1,5 +1,10 @@
 require_relative 'item'
 
-class ConjuredItem < Item
+class ConjuredItem < RegularItem
+
+  def update_quality
+    super
+    super
+  end
 
 end
