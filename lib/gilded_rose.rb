@@ -1,53 +1,63 @@
 class GildedRose
   attr_reader :items
-  
-  def initialize item_attributes
-    @items = item_attributes.map { |args| Item.new(*args) }
+
+  def initialize(items)
+    @items = items
   end
 
   def update_quality
 
-    for i in 0..(@items.size-1)
-      if (@items[i].name != "Aged Brie" && @items[i].name != "Backstage passes to a TAFKAL80ETC concert")
-        if (@items[i].quality > 0)
-          if (@items[i].name != "Sulfuras, Hand of Ragnaros")
-            @items[i].quality = @items[i].quality - 1
+    @items.each do |item|
+      item.update_sell_in
+      # WTF? why are we updating sell in here? #update_quality
+      # if (item.name != "Sulfuras, Hand of Ragnaros")
+      #   item.sell_in = item.sell_in - 1;
+      # end
+
+      if (item.name != "Aged Brie" && item.name != "Backstage passes to a TAFKAL80ETC concert")
+        if (item.quality > 0)
+          if (item.name != "Sulfuras, Hand of Ragnaros")
+            item.quality = item.quality - 1
           end
         end
       else
-        if (@items[i].quality < 50)
-          @items[i].quality = @items[i].quality + 1
-          if (@items[i].name == "Backstage passes to a TAFKAL80ETC concert")
-            if (@items[i].sell_in < 11)
-              if (@items[i].quality < 50)
-                @items[i].quality = @items[i].quality + 1
+        # deal with items that don't degrade (and may improve) over time
+        if (item.quality < 50)
+          item.quality = item.quality + 1
+          if (item.name == "Backstage passes to a TAFKAL80ETC concert")
+            if (item.sell_in < 10)
+              if (item.quality < 50)
+                item.quality = item.quality + 1
               end
             end
-            if (@items[i].sell_in < 6)
-              if (@items[i].quality < 50)
-                @items[i].quality = @items[i].quality + 1
+            if (item.sell_in < 5)
+              if (item.quality < 50)
+                item.quality = item.quality + 1
               end
             end
           end
         end
       end
-      if (@items[i].name != "Sulfuras, Hand of Ragnaros")
-        @items[i].sell_in = @items[i].sell_in - 1;
-      end
-      if (@items[i].sell_in < 0)
-        if (@items[i].name != "Aged Brie")
-          if (@items[i].name != "Backstage passes to a TAFKAL80ETC concert")
-            if (@items[i].quality > 0)
-              if (@items[i].name != "Sulfuras, Hand of Ragnaros")
-                @items[i].quality = @items[i].quality - 1
+      # # WTF? why are we updating sell in here? #update_quality
+      # if (item.name != "Sulfuras, Hand of Ragnaros")
+      #   item.sell_in = item.sell_in - 1;
+      # end
+      # items degrade faster or altogether after sell_in reaches 0
+      if (item.sell_in < 0)
+        if (item.name != "Aged Brie")
+          if (item.name != "Backstage passes to a TAFKAL80ETC concert")
+            if (item.quality > 0)
+              if (item.name != "Sulfuras, Hand of Ragnaros")
+                item.quality = item.quality - 1
               end
             end
           else
-            @items[i].quality = @items[i].quality - @items[i].quality
+            # instead fo subtracting item.quality, set it to 0.
+            item.quality = 0
           end
         else
-          if (@items[i].quality < 50)
-            @items[i].quality = @items[i].quality + 1
+          if (item.quality < 50)
+            item.quality = item.quality + 1
           end
         end
       end
