@@ -1,4 +1,5 @@
 Description: Gilded Rose Refactoring Kata for Ruby Hack Night
+
 Site: http://www.ryatta.com/ruby-hack-night-refactored/
 
 
