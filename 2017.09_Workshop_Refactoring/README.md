@@ -1,14 +1,18 @@
+Description: Gilded Rose Refactoring Kata for Ruby Hack Night
+Site: http://www.ryatta.com/ruby-hack-night-refactored/
+
+
 Gilded Rose Kata Refactoring Workshop
 =====================================
 
 This repo contains an exercise for our refactoring workshop. A big debt of gratitude is due to Alistair McKinnell for presenting the Gilded Rose Kata and his characterization tests at the last Toronto Ruby Brigade session. We knew immediately that his work would provide an excellent basis for refactoring, and this drove us to (finally!) actually organize it.
 
 Alistair's repo (which we've forked here) was built to demonstrate "three advanced developer testing techniques as they apply to the [Gilded Rose Kata](http://craftsmanship.sv.cmu.edu/exercises/gilded-rose-kata)."  You can learn more about those techniques in the parent repository. Briefly, they are:
-1. Characterization testing  
+1. Characterization testing
   With legacy code without proper specifications or tests, the only thing the developer has to work with is the existing code and its actual behavior: not what the code is supposed to do, but what it actually does.
-2. Mutation testing  
+2. Mutation testing
   With existing tests, mutate (change) certain statements in the source code and check if the test cases are able to detect the errors.
-3. Approval testing  
+3. Approval testing
   Taking a snapshot (golden master) of an object and comparing all future versions of the object to the golden master.
 
 We've restructured this repository to provide a quick-start introduction to refactoring techniques by replacing Alistair's  refactored Gilded Rose Kata code with the original kruft (translated into Ruby by @professor - check it out here: https://github.com/professor/GildedRose), but retaining the awesome characterization tests Alistair built.
@@ -53,7 +57,7 @@ Here are the steps to get you started with the repo. We assume, naturally, that 
 % rbenv rehash
 ```
 
-## Run the characterization test 
+## Run the characterization test
 ```sh
 % rspec ./spec/gilded_rose_characterization_spec.rb
 .
